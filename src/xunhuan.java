@@ -15,7 +15,19 @@ public class xunhuan {
 
         while(count>=0){//计数循环
             count=count-1;
+//            System.out.println(count);
         }
-        System.out.println("发射");
+        System.out.println("发射"+count);
+
+        int number;//用while循环来算平均数
+        int sum=0;
+        int leijia=0;
+        number = in.nextInt();
+        while(number != -1){
+            sum=sum+number;
+            leijia=leijia+1;
+            number=in.nextInt();
+        }
+        System.out.println("平均数是"+((1.0*(sum))/leijia));
     }
 }
