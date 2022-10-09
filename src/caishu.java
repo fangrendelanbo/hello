@@ -3,5 +3,6 @@ public class caishu {
         System.out.println("hello,world");
         System.out.println("hello,world");
         System.out.println("hello,world");
+        System.out.println("hello,world");
     }
 }
