@@ -9,13 +9,13 @@ public class sushu {
         int y=0;
         for (i = 2; i<x; i++) {
             if (x % i == 0) {
-                System.out.println(x + "不是素数");
+                System.out.println(x + "no");
                 y=1;
                 break;
             }
         }
         if (y==0){
-            System.out.println(x + "是素数");
+            System.out.println(x + "yes");
         }
     }
 }
