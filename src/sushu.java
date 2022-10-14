@@ -3,14 +3,19 @@ import java.util.Scanner;
 public class sushu {
     public static void main(String[] args){
         Scanner in =new Scanner(System.in);
+        System.out.print("输入一个数：");
         int x=in.nextInt();
-        for (int i=2;i<x;i++) {
+        int i;
+        int y=0;
+        for (i = 2; i<x; i++) {
             if (x % i == 0) {
                 System.out.println(x + "不是素数");
-            } else {
-                System.out.println(x + "是素数");
+                y=1;
+                break;
             }
-            break;//break可以单独用在每一个if-else分支中，也可以提取公共部分将其拿出来
+        }
+        if (y==0){
+            System.out.println(x + "是素数");
         }
     }
 }
