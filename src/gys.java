@@ -42,6 +42,7 @@ public class gys {//求两个数的最大公约数
         if (a!=0&&b!=0){
             while(b!=0){
                 int r=a%b;
+
                 a=b;
                 b=r;
             }
