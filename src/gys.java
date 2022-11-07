@@ -37,7 +37,7 @@ public class gys {//求两个数的最大公约数
         if (b==0&&a!=0){
             System.out.println(a+"和"+b+"的最大公约数为： "+a);
         }
-        int oa=a;//辗转相除法（欧几里德法）
+        int oa=a;
         int ob=b;
         if (a!=0&&b!=0){
             while(b!=0){
