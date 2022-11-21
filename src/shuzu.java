@@ -14,6 +14,7 @@ public class shuzu {//输入一组数，输出均值和大于均值的数
                 sum+=kl[i];
             }
             System.out.printf("均值是："+"%.2f",(sum/x));
+            System.out.println();
             for (int j=0;j<kl.length;j++) {
                 if (kl[j] > (sum / x)) {
                     System.out.println("大于均值的数字是：" + kl[j]);
