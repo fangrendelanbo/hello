@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class hello {
+public class hello1 {
     public static void main(String[] args){
         System.out.println("hello,world");//直接输出（println代表输出后自动跟一个回车，print不自动根回车）
 
