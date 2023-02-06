@@ -15,6 +15,9 @@ public class PrimeNumber {
     public static void main(String[] args) {
         int number = 11;
         boolean isPrime = isPrime(number);
+//        PrimeNumber kl=new PrimeNumber();
+//        boolean aa =kl.isPrime(12);
+//        System.out.println(number + " is a prime number: " + aa);
         System.out.println(number + " is a prime number: " + isPrime);
     }
 }
